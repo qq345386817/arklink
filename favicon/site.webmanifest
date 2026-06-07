@@ -1,6 +1,8 @@
 {
   "name": "ArkLink",
   "short_name": "ArkLink",
+  "description": "Premium no-ads interactive climate thriller visual novel.",
+  "start_url": "/",
   "icons": [
     {
       "src": "/favicon/android-chrome-192x192.png",
