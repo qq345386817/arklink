@@ -46,3 +46,7 @@ not introduce `/cdn-cgi/l/email-protection` links for search engines. `/cdn-cgi/
 not site content and is excluded in robots.txt; its historical 404 is not a missing
 game page. Normal HTML-to-clean redirects and referral-query canonical exclusions
 are also expected, not URLs that all need to be indexed.
+
+`sitemap.txt` is a plain-text fallback generated from the exact same canonical URL
+set as `sitemap.xml`. It can be submitted in Search Console when diagnosing XML
+sitemap processing; it is not a separate content index.
