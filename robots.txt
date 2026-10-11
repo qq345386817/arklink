@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /cdn-cgi/
+Disallow: /scripts/
 
 Sitemap: https://arklink.luopeike.com/sitemap.xml

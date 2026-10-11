@@ -1,0 +1,72 @@
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+  X-Content-Type-Options: nosniff
+
+/index.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex
+  Link: <https://arklink.luopeike.com/>; rel="canonical"
+
+/gameplay.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex
+  Link: <https://arklink.luopeike.com/gameplay>; rel="canonical"
+
+/faq.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex
+  Link: <https://arklink.luopeike.com/faq>; rel="canonical"
+
+/help.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex
+  Link: <https://arklink.luopeike.com/help>; rel="canonical"
+
+/support.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex
+  Link: <https://arklink.luopeike.com/support>; rel="canonical"
+
+/privacy-policy.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex
+  Link: <https://arklink.luopeike.com/privacy-policy>; rel="canonical"
+
+/zh-Hans/index.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex
+  Link: <https://arklink.luopeike.com/zh-Hans/>; rel="canonical"
+
+/zh-Hans/gameplay.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex
+  Link: <https://arklink.luopeike.com/zh-Hans/gameplay>; rel="canonical"
+
+/zh-Hans/faq.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex
+  Link: <https://arklink.luopeike.com/zh-Hans/faq>; rel="canonical"
+
+/zh-Hans/help.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex
+  Link: <https://arklink.luopeike.com/zh-Hans/help>; rel="canonical"
+
+/zh-Hans/support.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex
+  Link: <https://arklink.luopeike.com/zh-Hans/support>; rel="canonical"
+
+/zh-Hans/privacy-policy.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex
+  Link: <https://arklink.luopeike.com/zh-Hans/privacy-policy>; rel="canonical"
+
+/scripts/*
+  X-Robots-Tag: noindex
+
+/README.md
+  X-Robots-Tag: noindex
+
+/404
+  X-Robots-Tag: noindex
