@@ -16,10 +16,6 @@ No account is required to play the story. Progress is saved on your device.
 
 The public download linked here is the iPhone and iPad App Store app. It supports English and Simplified Chinese. This website does not advertise a Google Play release.
 
-## Is the game paid?
-
-Check the price on the App Store in your region. Prices and promotions may change; the website does not promise a fixed worldwide price.
-
 ## Does reading spend the 90-second budget?
 
 No. In the upcoming T-402 upgrade, this is an action budget. It decreases only when you choose a charged operation. Taking time to read is free.

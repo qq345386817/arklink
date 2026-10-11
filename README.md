@@ -33,12 +33,12 @@ do not remove it, because doing so enables Pages' default SPA fallback.
 `llms.txt` links to generated Markdown companions. Markdown pages are excluded
 from Google indexing using `_headers`, while the corresponding HTML pages remain
 indexable. The file is a content guide for supporting agents, not a Google ranking
-signal. Do not add invented ratings, worldwide pricing or unreleased features as
+signal. Do not add invented ratings or unreleased features as
 current features to structured data or summaries.
 
 The T-402 gameplay upgrade is explicitly marked as in development. Change this
-status only after the matching app build is publicly available. Current regional
-pricing belongs to the App Store listing. `updated` in the generator is the actual
+status only after the matching app build is publicly available. The app is a free
+download; keep both language CTAs and product summaries consistent. `updated` is the actual
 content-modification date, not the regeneration date.
 
 Public support links use Cloudflare's `email_off` markers so email obfuscation does

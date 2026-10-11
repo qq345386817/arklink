@@ -54,11 +54,7 @@ iPhone 与 iPad · App Store
 
 当前设备本地存档
 
-## 价格
-
-请查看你所在地区的 App Store
-
-[App Store](https://apps.apple.com/app/id6773223162)
+[在 App Store 免费下载](https://apps.apple.com/app/id6773223162)
 
 [常见问题](https://arklink.luopeike.com/zh-Hans/faq)
 

@@ -14,12 +14,11 @@ const locales = [
     dir: '', lang: 'en', label: 'English',
     nav: ['Home', 'Gameplay', 'FAQ', 'Help', 'Support', 'Privacy'],
     title: 'ArkLink: Global Extremes | Climate Thriller Visual Novel',
-    description: 'An offline climate thriller visual novel about disaster claims, evidence and difficult choices. Explore branching routes and the upcoming T-402 decision upgrade.',
+    description: 'A free, offline climate thriller visual novel about disaster claims, evidence and difficult choices. Explore branching routes and the upcoming T-402 decision upgrade.',
     subtitle: 'Global Extremes · A climate thriller visual novel',
     kicker: 'Disaster claims. Human consequences.',
     lead: 'Play Carter Li, a catastrophe claims actuary and a father. Decide which evidence survives, whose treatment stays authorised, and who pays for a changing climate.',
-    download: 'View on the App Store', secondary: 'Explore the gameplay',
-    pricing: 'Availability and price are shown by the App Store in your region.',
+    download: 'Download Free on the App Store', secondary: 'Explore the gameplay',
     chips: ['Branching story', 'Offline local saves', 'English & 简体中文'],
     featureTitle: 'An interactive story about evidence and impossible choices',
     features: [
@@ -38,7 +37,7 @@ const locales = [
     storyBody: 'T-402 concerns the Tana Valley’s water access. Jack’s medical treatment depends on Carter’s professional clearance. The opening case puts a family’s breathing space and a community’s future on the same screen.',
     heroAlt: 'Carter Li holding the ArkLink claims terminal in a city affected by extreme weather',
     sceneAlt: 'ArkLink terminal showing catastrophe claim information and evidence',
-    factsTitle: 'Game facts', facts: [['Game', productName], ['Genre', 'Interactive fiction / climate thriller visual novel'], ['Platform', 'iPhone and iPad · App Store'], ['Languages', 'English and Simplified Chinese'], ['Account', 'Not required for story play'], ['Progress', 'Local device saves'], ['Pricing', 'Check your regional App Store listing']],
+    factsTitle: 'Game facts', facts: [['Game', productName], ['Genre', 'Interactive fiction / climate thriller visual novel'], ['Platform', 'iPhone and iPad · App Store'], ['Languages', 'English and Simplified Chinese'], ['Account', 'Not required for story play'], ['Progress', 'Local device saves']],
     gameplayTitle: 'ArkLink Gameplay | Evidence, Decisions & the T-402 Update',
     gameplayDescription: 'Explore ArkLink’s branching climate thriller and the upcoming T-402 action budget, override permits, evidence cross-checks, profile abilities and sound effects.',
     gameplayHeading: 'How decisions work in ArkLink',
@@ -53,14 +52,13 @@ const locales = [
       ['Save and replay', 'The upcoming update preserves action costs and the pending destination if play is interrupted. Older chapter-one saves keep their original story mode; replaying enables the new operating window.'],
     ],
     faqTitle: 'ArkLink FAQ | Offline Play, Languages, Saves & New Gameplay',
-    faqDescription: 'Answers about ArkLink offline play, iPhone and iPad availability, languages, local saves, regional pricing and the upcoming T-402 decision mechanics.',
+    faqDescription: 'Answers about ArkLink offline play, iPhone and iPad availability, languages, local saves and the upcoming T-402 decision mechanics.',
     faqHeading: 'Frequently asked questions',
     faq: [
       ['What kind of game is ArkLink?', 'ArkLink: Global Extremes is an interactive climate thriller visual novel. You play Carter Li, a catastrophe claims actuary, and make decisions about evidence, treatment access and corporate orders.'],
       ['Can I play offline?', 'Yes. After installation, the bundled story and local saves work offline. Downloading, updating and opening external support or store links require a connection.'],
       ['Do I need an account?', 'No account is required to play the story. Progress is saved on your device.'],
       ['Which platforms and languages are supported?', 'The public download linked here is the iPhone and iPad App Store app. It supports English and Simplified Chinese. This website does not advertise a Google Play release.'],
-      ['Is the game paid?', 'Check the price on the App Store in your region. Prices and promotions may change; the website does not promise a fixed worldwide price.'],
       ['Does reading spend the 90-second budget?', 'No. In the upcoming T-402 upgrade, this is an action budget. It decreases only when you choose a charged operation. Taking time to read is free.'],
       ['What happens when override permits run out?', 'In the upcoming first-chapter mechanics, costly emergency actions become unavailable with a reason shown. Standard sign-off remains available, so running out of permits does not trap the story.'],
       ['Are the new mechanics already in the App Store app?', 'The operating window, profile abilities, evidence cross-checks and terminal audio described in the update preview are in development. They may not be present in the version currently available to download.'],
@@ -90,10 +88,10 @@ const locales = [
     dir: 'zh-Hans', lang: 'zh-Hans', label: '简体中文',
     nav: ['首页', '玩法', '常见问题', '帮助', '支持', '隐私'],
     title: 'ArkLink: Global Extremes｜气候悬疑互动小说',
-    description: 'ArkLink 是一款离线气候悬疑互动小说。扮演巨灾理赔精算师，在证据、医疗权限与企业命令之间选择，探索分支路线及研发中的 T-402 决策玩法升级。',
+    description: 'ArkLink 是一款免费离线气候悬疑互动小说。扮演巨灾理赔精算师，在证据、医疗权限与企业命令之间选择，探索分支路线及研发中的 T-402 决策玩法升级。',
     subtitle: 'Global Extremes · 气候悬疑互动小说', kicker: '灾难理赔。人命与账本。',
     lead: '你是 Carter Li，一名巨灾理赔精算师，也是一位父亲。你决定哪些证据留下、谁保住治疗权限，以及谁为失控的气候付账。',
-    download: '在 App Store 查看', secondary: '了解游戏玩法', pricing: '下载方式与价格以你所在地区的 App Store 为准。',
+    download: '在 App Store 免费下载', secondary: '了解游戏玩法',
     chips: ['分支剧情', '离线本地存档', '英文与简体中文'],
     featureTitle: '围绕证据与艰难选择展开的互动故事',
     features: [['灾难理赔决策', '通过理赔、医疗权限与企业权力经历近未来气候危机。你签下账本，其他人承担结果。'], ['分支路线记录', '探索不同选择，回看已形成的路线与发现的档案。重玩同一案件，能看见另一面的代价。'], ['无需账号，离线阅读', '剧情与存档保存在当前设备。下载安装与更新需要联网，已安装的故事无需账号即可游玩。']],
@@ -102,12 +100,12 @@ const locales = [
     previewFeatures: [['90 秒行动预算', '阅读不扣时间。主动操作会消耗标明的预算，窗口耗尽后仍可常规签收。'], ['2 次越权授权', '用有限授权复制敏感证据、延长复核窗口或冻结默认拒赔。'], ['画像能力与后果回显', '活人优先、系统修正、证据筹码强化不同路线；每次选择后，都能看到实际后果。']],
     storyTitle: '一笔理赔，两种生存', storyBody: 'T-402 关系塔纳河谷的净水；Jack 的治疗权限依赖 Carter 的职业职级。开篇把一个家庭的呼吸与一整个社区的明天，压进同一张屏幕。',
     heroAlt: 'Carter Li 手持 ArkLink 灾难理赔终端，身后的城市遭遇极端天气', sceneAlt: 'ArkLink 风险终端显示巨灾理赔资料与证据',
-    factsTitle: '游戏信息', facts: [['名称', productName], ['类型', '气候悬疑互动小说 / 视觉小说'], ['平台', 'iPhone 与 iPad · App Store'], ['语言', '英文、简体中文'], ['账号', '剧情游玩无需账号'], ['进度', '当前设备本地存档'], ['价格', '请查看你所在地区的 App Store']],
+    factsTitle: '游戏信息', facts: [['名称', productName], ['类型', '气候悬疑互动小说 / 视觉小说'], ['平台', 'iPhone 与 iPad · App Store'], ['语言', '英文、简体中文'], ['账号', '剧情游玩无需账号'], ['进度', '当前设备本地存档']],
     gameplayTitle: 'ArkLink 玩法｜证据核验、分支选择与 T-402 新版本预告', gameplayDescription: '了解 ArkLink 分支剧情，以及研发中的 90 秒行动预算、有限越权授权、证据交叉核验、画像能力与终端音效。阅读不消耗行动时间。', gameplayHeading: '你的选择如何改变 ArkLink',
     gameplayIntro: 'ArkLink 是以故事为核心的视觉小说。你阅读案件、选择操作，然后承担后果。当前游戏支持分支剧情与本地进度；下方的新机制介绍属于研发中的 T-402 升级预告。游戏中的理赔规则不是真实保险服务。',
     mechanics: [['行动预算不是阅读计时器', '新版本首章的新进度将获得 90 秒行动预算。阅读对话、打开记录、恢复存档都不扣时间；只有选定有时间成本的操作才会扣除对应预算，按钮会先标明成本。'], ['越权授权需要取舍', '首章提供 2 次授权。部分证据副本与紧急操作消耗 1 次；过早把授权花在两份副本上，后面就可能无法冻结拒赔。常规操作仍然开放。'], ['先对照证据，再做判断', 'T-402 会并排展示 179 天记录、180 天门槛、2.00mm 读数，以及比现场上传早 11 分钟的写入时间。你决定锁定时间戳、申请物理复检，还是争取复核窗口。'], ['画像会持续影响选择', '活人优先：原本降低灾民愤怒的选择额外降低 2 点。系统修正：原本提高公司信任的选择额外增加 2 点。证据筹码：原本提高证据强度的选择额外增加 2 点。数值仍受上下限约束。'], ['窗口可以保留、冻结或耗尽', '首章结算记录时间与剩余授权。冻结拒赔或耗尽复核窗口的结果，会在第二章得到回应。行动预算是这个开篇案件的机制，并非每章都有限时资源。'], ['音效可以关闭', '新终端音效默认关闭，可独立启用选择、消息、授权、拒赔、档案解锁与低时间提示音。关闭声音仍可完整阅读。'], ['存档与重玩', '新版本会保存操作成本与中断时的目标节点，恢复时不再次扣除资源。旧的首章存档保留原剧情模式，重开本章才启用行动窗口。']],
-    faqTitle: 'ArkLink 常见问题｜离线游玩、语言、存档与新玩法', faqDescription: '解答 ArkLink 的离线游玩、iPhone 和 iPad 支持、语言、本地存档、地区价格，以及研发中的 T-402 行动预算与越权授权问题。', faqHeading: '常见问题',
-    faq: [['ArkLink 是什么类型的游戏？', 'ArkLink: Global Extremes 是一款气候悬疑互动小说。你扮演巨灾理赔精算师 Carter Li，决定如何处理证据、医疗权限与企业命令。'], ['可以离线游玩吗？', '可以。安装后，内置剧情与本地存档支持离线使用。下载、更新和打开外部商店或支持链接需要联网。'], ['需要注册账号吗？', '剧情游玩无需注册账号。进度保存在当前设备。'], ['支持哪些平台和语言？', '本站公开下载链接对应 iPhone 与 iPad 的 App Store 应用，支持英文和简体中文。本站没有宣称已在 Google Play 上线。'], ['游戏收费吗？', '请以你所在地区 App Store 显示的价格为准。价格与活动可能变化，官网不承诺全球统一固定价格。'], ['读文字会消耗 90 秒吗？', '不会。研发中的 T-402 升级使用行动预算，只在选定需要消耗时间的操作后扣除。慢慢阅读不扣预算。'], ['越权授权用完会卡关吗？', '不会。新首章机制会禁用需要额外授权的紧急操作，并显示原因；常规签收仍可执行。'], ['这些新玩法已经在商店版上线了吗？', '本页预告的行动窗口、画像能力、证据交叉核验和终端音效正在研发，当前 App Store 下载版本可能还没有这些功能。'], ['能重玩路线或跨设备同步吗？', '可以重开章节探索其他路线。存档属于当前设备，官网不承诺云同步或跨设备迁移；清除进度会移除本地剧情记录。'], ['游戏内容是真实理赔或气候建议吗？', '不是。剧情与案件属于虚构游戏内容，不构成专业气候、医疗、金融或保险建议。']],
+    faqTitle: 'ArkLink 常见问题｜离线游玩、语言、存档与新玩法', faqDescription: '解答 ArkLink 的离线游玩、iPhone 和 iPad 支持、语言、本地存档，以及研发中的 T-402 行动预算与越权授权问题。', faqHeading: '常见问题',
+    faq: [['ArkLink 是什么类型的游戏？', 'ArkLink: Global Extremes 是一款气候悬疑互动小说。你扮演巨灾理赔精算师 Carter Li，决定如何处理证据、医疗权限与企业命令。'], ['可以离线游玩吗？', '可以。安装后，内置剧情与本地存档支持离线使用。下载、更新和打开外部商店或支持链接需要联网。'], ['需要注册账号吗？', '剧情游玩无需注册账号。进度保存在当前设备。'], ['支持哪些平台和语言？', '本站公开下载链接对应 iPhone 与 iPad 的 App Store 应用，支持英文和简体中文。本站没有宣称已在 Google Play 上线。'], ['读文字会消耗 90 秒吗？', '不会。研发中的 T-402 升级使用行动预算，只在选定需要消耗时间的操作后扣除。慢慢阅读不扣预算。'], ['越权授权用完会卡关吗？', '不会。新首章机制会禁用需要额外授权的紧急操作，并显示原因；常规签收仍可执行。'], ['这些新玩法已经在商店版上线了吗？', '本页预告的行动窗口、画像能力、证据交叉核验和终端音效正在研发，当前 App Store 下载版本可能还没有这些功能。'], ['能重玩路线或跨设备同步吗？', '可以重开章节探索其他路线。存档属于当前设备，官网不承诺云同步或跨设备迁移；清除进度会移除本地剧情记录。'], ['游戏内容是真实理赔或气候建议吗？', '不是。剧情与案件属于虚构游戏内容，不构成专业气候、医疗、金融或保险建议。']],
     helpTitle: 'ArkLink 帮助｜开始游戏、继续存档、重玩与音效', helpDescription: '了解 ArkLink 如何开始和继续游戏、重开章节、使用本地存档、跟随系统语言，以及研发中的行动窗口与音效开关。', helpHeading: '帮助与入门',
     help: [['开始故事', '打开 ArkLink，使用首页的主开始按钮进入开篇权限校准与第一笔案件。按钮名称可能随版本和语言有所不同。'], ['继续当前进度', '使用继续按钮或章节菜单。本机保存剧情进度与路线记录。'], ['按自己的节奏阅读', '逐字显示时，可使用立即显示全文按钮（如果当前版本提供）；长消息和选项列表支持滚动。'], ['重开章节', '重开本章可尝试其他路线。研发中的 T-402 版本会在重开首章时恢复行动预算与授权次数。'], ['语言', 'App 在支持范围内跟随系统语言，目前提供英文和简体中文剧情。'], ['新版本的音效开关', '使用首页或游戏内的音效开关，默认关闭。声音偏好独立于剧情进度保存。'], ['谨慎清除进度', '清除进度会删除本地剧情记录，重开本章则是重玩当前章节。请先阅读确认说明。'], ['即将加入的行动窗口', '玩法页面明确标注了研发中的行动预算与越权授权。旧首章存档在重玩前保留原模式。']],
     supportTitle: 'ArkLink 支持｜联系开发者与游戏问题反馈', supportDescription: '联系 ArkLink 开发者，反馈剧情、存档、语言与技术问题。请附上安装版本、设备与受影响章节，勿发送密码。', supportHeading: '用户支持', support: [['联系开发者', contact], ['反馈时请附上', '设备型号、系统版本、已安装的 ArkLink 版本、受影响章节与简短问题描述。不要发送密码或账号凭据。'], ['先查看玩法与帮助', '帮助和常见问题介绍基本操作；玩法页面会标明研发中的功能，便于与你当前安装的版本对照。']],
@@ -187,12 +185,12 @@ const layout = (locale, page, title, description, body, narrow = false) => {
     <nav class="nav" aria-label="${locale.lang === 'en' ? 'Main navigation' : '主导航'}">${pages.map((name, i) => `<a href="${route(locale, name)}"${name === page ? ' aria-current="page"' : ''}>${locale.nav[i]}</a>`).join('')}<span class="language-links">${languageLinks}</span></nav>
   </header>
   ${body}
-  <footer class="footer">${locale.footer}<br>${locale.pricing}</footer>
+  <footer class="footer">${locale.footer}</footer>
 </div></div></body>
 </html>
 `;
 };
-const download = (locale) => `<div class="actions"><a class="button primary" href="${appStore}"><img class="store-icon" src="/images/app-store-icon.svg" width="20" height="20" alt="">${locale.download}</a><a class="button" href="${route(locale, 'gameplay')}">${locale.secondary}</a></div><p class="small">${locale.pricing}</p>`;
+const download = (locale) => `<div class="actions"><a class="button primary" href="${appStore}"><img class="store-icon" src="/images/app-store-icon.svg" width="20" height="20" alt="">${locale.download}</a><a class="button" href="${route(locale, 'gameplay')}">${locale.secondary}</a></div>`;
 const facts = (locale) => `<section class="section"><h2>${locale.factsTitle}</h2><dl class="facts">${locale.facts.map(([key, value]) => `<div><dt>${escape(key)}</dt><dd>${escape(value)}</dd></div>`).join('')}</dl></section>`;
 const preview = (locale) => `<section class="section preview" id="next-update"><p class="kicker">${locale.previewLabel}</p><h2>${locale.previewTitle}</h2><p>${locale.previewBody}</p>${featureCards(locale.previewFeatures)}<p><a class="text-link" href="${route(locale, 'gameplay')}">${locale.secondary} →</a></p></section>`;
 const strip = (text) => text.replace(/<!--.*?-->/g, '').replace(/<a[^>]*href="([^"]+)"[^>]*>(.*?)<\/a>/g, '[$2]($1)').replace(/<[^>]*>/g, '');
@@ -201,7 +199,7 @@ const mdSections = (items) => items.map(([heading, text]) => `## ${heading}\n\n$
 for (const locale of locales) {
   const homeBody = `<main id="main"><section class="hero"><div class="hero-media"><img src="/images/hero.jpg" alt="${escape(locale.heroAlt)}" fetchpriority="high" decoding="async"><div class="terminal-card"><span>ARKLINK / CATASTROPHE CLAIMS</span><strong>T-402</strong></div></div><div class="hero-copy"><p class="kicker">${locale.kicker}</p><h1>ArkLink</h1><p class="subtitle">${locale.subtitle}</p><p class="lead">${locale.lead}</p><div class="chip-row">${locale.chips.map((chip) => `<span>${chip}</span>`).join('')}</div>${download(locale)}</div></section><section class="section"><h2>${locale.featureTitle}</h2>${featureCards(locale.features)}</section>${preview(locale)}<section class="section split"><div><h2>${locale.storyTitle}</h2><p>${locale.storyBody}</p></div><img class="story-image" src="/images/risk-terminal.jpg" alt="${escape(locale.sceneAlt)}" loading="lazy" decoding="async"></section>${facts(locale)}<section class="section"><h2>${locale.faqHeading}</h2>${sections(locale.faq.slice(0, 3))}<p><a class="text-link" href="${route(locale, 'faq')}">${locale.nav[2]} →</a></p></section></main>`;
   write(`${locale.dir ? `${locale.dir}/` : ''}index.html`, layout(locale, 'index', locale.title, locale.description, homeBody));
-  write(`${locale.dir ? `${locale.dir}/` : ''}index.md`, `# ${productName}\n\n${locale.lead}\n\n${mdSections(locale.features)}\n## ${locale.previewLabel}\n\n${locale.previewBody}\n\n${mdSections(locale.previewFeatures)}\n${mdSections(locale.facts)}\n[App Store](${appStore})\n\n[${locale.nav[2]}](${url(locale, 'faq')})\n\nUpdated: ${updated}\n`);
+  write(`${locale.dir ? `${locale.dir}/` : ''}index.md`, `# ${productName}\n\n${locale.lead}\n\n${mdSections(locale.features)}\n## ${locale.previewLabel}\n\n${locale.previewBody}\n\n${mdSections(locale.previewFeatures)}\n${mdSections(locale.facts)}\n[${locale.download}](${appStore})\n\n[${locale.nav[2]}](${url(locale, 'faq')})\n\nUpdated: ${updated}\n`);
   for (const page of pages.slice(1)) {
     const items = page === 'gameplay' ? locale.mechanics : locale[page === 'privacy-policy' ? 'privacy' : page];
     const key = page === 'privacy-policy' ? 'privacy' : page;
@@ -218,6 +216,6 @@ write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /cdn-cgi/\nDisallow: /sc
 // Both supported sitemap formats derive from one canonical URL set.
 write('sitemap.txt', `${locales.flatMap((locale) => pages.map((page) => url(locale, page))).join('\n')}\n`);
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${locales.flatMap((locale) => pages.map((page) => `  <url><loc>${url(locale, page)}</loc><lastmod>${updated}</lastmod>${locales.map((target) => `<xhtml:link rel="alternate" hreflang="${target.lang}" href="${url(target, page)}"/>`).join('')}<xhtml:link rel="alternate" hreflang="x-default" href="${url(locales[0], page)}"/></url>`)).join('\n')}\n</urlset>\n`);
-write('llms.txt', `# ${productName}\n\n> An offline, story-led climate thriller visual novel about catastrophe claims, evidence, medical access and branching decisions. / 离线气候悬疑互动小说，以巨灾理赔、证据与分支选择为核心。\n\nThe public download is the iPhone/iPad App Store app. English and Simplified Chinese are supported. No game account is required. Saves are local; cloud sync is not promised. Check the regional store for current price.\n\nRelease status: the T-402 operating window, override permits, persistent profile abilities, evidence cross-checks and terminal sound effects described on the Gameplay page are upcoming features in development, not a claim about the current App Store build. This is a fictional game, not an insurance service or professional advice.\n\n## English\n\n- [Product overview](${domain}/index.md): game identity, platform, languages and release status.\n- [Gameplay and upcoming T-402 update](${domain}/gameplay.md): a 90-second action budget, two override permits, evidence comparison, profile abilities and optional audio; reading is free.\n- [FAQ](${domain}/faq.md): offline play, prices, saves and feature availability.\n- [Help](${domain}/help.md): start, continue, replay and upcoming controls.\n\n## 简体中文\n\n- [游戏概览](${domain}/zh-Hans/index.md): 游戏类型、平台、语言与发布状态。\n- [玩法与新版本预告](${domain}/zh-Hans/gameplay.md): 行动预算、越权授权、证据核验与画像能力。\n- [常见问题](${domain}/zh-Hans/faq.md): 离线、存档、地区价格与功能是否上线。\n- [操作帮助](${domain}/zh-Hans/help.md): 开始、继续与重玩。\n\n## Optional\n\n- [Official download](${appStore}): current availability and regional pricing.\n- [Support](${domain}/support.md): developer contact.\n- [Privacy policy](${domain}/privacy-policy.md): local data and optional notifications.\n\nUpdated: ${updated}\n`);
+write('llms.txt', `# ${productName}\n\n> A free, offline, story-led climate thriller visual novel about catastrophe claims, evidence, medical access and branching decisions. / 免费离线气候悬疑互动小说，以巨灾理赔、证据与分支选择为核心。\n\nArkLink is available as a free download on the App Store for iPhone and iPad. English and Simplified Chinese are supported. No game account is required. Saves are local; cloud sync is not promised.\n\nRelease status: the T-402 operating window, override permits, persistent profile abilities, evidence cross-checks and terminal sound effects described on the Gameplay page are upcoming features in development, not a claim about the current App Store build. This is a fictional game, not an insurance service or professional advice.\n\n## English\n\n- [Product overview](${domain}/index.md): game identity, platform, languages and release status.\n- [Gameplay and upcoming T-402 update](${domain}/gameplay.md): a 90-second action budget, two override permits, evidence comparison, profile abilities and optional audio; reading is free.\n- [FAQ](${domain}/faq.md): offline play, saves and feature availability.\n- [Help](${domain}/help.md): start, continue, replay and upcoming controls.\n\n## 简体中文\n\n- [游戏概览](${domain}/zh-Hans/index.md): 游戏类型、平台、语言与发布状态。\n- [玩法与新版本预告](${domain}/zh-Hans/gameplay.md): 行动预算、越权授权、证据核验与画像能力。\n- [常见问题](${domain}/zh-Hans/faq.md): 离线、存档与功能是否上线。\n- [操作帮助](${domain}/zh-Hans/help.md): 开始、继续与重玩。\n\n## Optional\n\n- [Official download](${appStore}): free download for iPhone and iPad.\n- [Support](${domain}/support.md): developer contact.\n- [Privacy policy](${domain}/privacy-policy.md): local data and optional notifications.\n\nUpdated: ${updated}\n`);
 write('_headers', `/llms.txt\n  Content-Type: text/plain; charset=utf-8\n  X-Content-Type-Options: nosniff\n\n${locales.flatMap((locale) => pages.map((page) => `${markdownPath(locale, page)}\n  Content-Type: text/markdown; charset=utf-8\n  X-Robots-Tag: noindex\n  Link: <${url(locale, page)}>; rel="canonical"\n`)).join('\n')}\n/scripts/*\n  X-Robots-Tag: noindex\n\n/README.md\n  X-Robots-Tag: noindex\n\n/404\n  X-Robots-Tag: noindex\n`);
 console.log(`Generated ${pages.length * locales.length} canonical pages, Markdown companions, sitemap, llms.txt and true-404 support in ${outDir}`);

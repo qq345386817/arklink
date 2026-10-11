@@ -54,11 +54,7 @@ Not required for story play
 
 Local device saves
 
-## Pricing
-
-Check your regional App Store listing
-
-[App Store](https://apps.apple.com/app/id6773223162)
+[Download Free on the App Store](https://apps.apple.com/app/id6773223162)
 
 [FAQ](https://arklink.luopeike.com/faq)
 
