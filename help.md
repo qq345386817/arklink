@@ -34,4 +34,4 @@ The Gameplay page explains the action budget and override permits available in v
 
 Canonical: https://arklink.luopeike.com/help
 
-Updated: 2026-10-23
+Updated: 2026-10-24

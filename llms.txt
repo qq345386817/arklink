@@ -26,4 +26,4 @@ Release status: version 1.1.0 includes the T-402 operating window, override perm
 - [Support](https://arklink.luopeike.com/support.md): developer contact.
 - [Privacy policy](https://arklink.luopeike.com/privacy-policy.md): local data and optional notifications.
 
-Updated: 2026-10-23
+Updated: 2026-10-24

@@ -38,4 +38,4 @@ ArkLink: Global Extremes 是一款气候悬疑互动小说。你扮演巨灾理�
 
 Canonical: https://arklink.luopeike.com/zh-Hans/faq
 
-Updated: 2026-10-23
+Updated: 2026-10-24

@@ -6,6 +6,16 @@ The source of truth is `scripts/generate-site.cjs`, committed in this standalone
 Run `node scripts/generate-site.cjs` to rebuild, or pass an output directory for validation.
 The parent game's legacy generator delegates to this script.
 
+The website uses the **ArkLink Field Notes** design system. Read
+`design-system/README.md` before changing the design. Its `tokens.json` generates
+`style/tokens.css`; edit the tokens, not that generated stylesheet. `style/base.css`
+contains responsive layout and component states. There is no client-side framework
+or JavaScript dependency for navigation and FAQ disclosures.
+
+Run `python3 scripts/check-site.py` after regenerating to check canonical URLs,
+language alternatives, links, anchors, images, JSON-LD, tokens and colour contrast.
+Artwork and the App Store screenshot sources are documented in `images/README.md`.
+
 Pages:
 
 - `index.html`

@@ -38,4 +38,4 @@ No. The setting and claims are fictional game content. They are not professional
 
 Canonical: https://arklink.luopeike.com/faq
 
-Updated: 2026-10-23
+Updated: 2026-10-24

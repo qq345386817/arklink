@@ -30,4 +30,4 @@ Terminal sound effects are playback only. ArkLink does not record audio or reque
 
 Canonical: https://arklink.luopeike.com/privacy-policy
 
-Updated: 2026-10-23
+Updated: 2026-10-24

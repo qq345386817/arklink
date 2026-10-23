@@ -36,4 +36,4 @@ The game preserves action costs and the pending destination if play is interrupt
 
 Canonical: https://arklink.luopeike.com/gameplay
 
-Updated: 2026-10-23
+Updated: 2026-10-24

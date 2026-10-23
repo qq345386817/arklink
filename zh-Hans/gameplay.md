@@ -36,4 +36,4 @@ T-402 会并排展示 179 天记录、180 天门槛、2.00mm 读数，以及比�
 
 Canonical: https://arklink.luopeike.com/zh-Hans/gameplay
 
-Updated: 2026-10-23
+Updated: 2026-10-24

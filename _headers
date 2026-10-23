@@ -65,6 +65,12 @@
 /scripts/*
   X-Robots-Tag: noindex
 
+/design-system/*
+  X-Robots-Tag: noindex
+
+/images/README.md
+  X-Robots-Tag: noindex
+
 /README.md
   X-Robots-Tag: noindex
 

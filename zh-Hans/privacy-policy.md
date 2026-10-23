@@ -30,4 +30,4 @@ ArkLink 不使用第三方广告追踪器，不会跨 App 或网站追踪你。
 
 Canonical: https://arklink.luopeike.com/zh-Hans/privacy-policy
 
-Updated: 2026-10-23
+Updated: 2026-10-24

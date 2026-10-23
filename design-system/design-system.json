@@ -1,0 +1,14 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": { "v": 1, "at": "2026-10-23T18:30:01Z" },
+  "title": "ArkLink Field Notes",
+  "namespace": "ArkLinkFieldNotes",
+  "libraries": [],
+  "sections": {},
+  "groups": [],
+  "assetGroups": {},
+  "blobs": {},
+  "docs": { "readme": "README.md", "sections": [] },
+  "lastChange": { "by": "Peter Luo", "at": "2026-10-23T18:30:01Z", "via": "Codex", "note": "Establish the website design system from ArkLink artwork and terminal identity, with explicit accessible editorial updates." }
+}

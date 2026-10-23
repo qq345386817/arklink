@@ -14,4 +14,4 @@
 
 Canonical: https://arklink.luopeike.com/zh-Hans/support
 
-Updated: 2026-10-23
+Updated: 2026-10-24

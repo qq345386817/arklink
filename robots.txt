@@ -2,5 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /cdn-cgi/
 Disallow: /scripts/
+Disallow: /design-system/
 
 Sitemap: https://arklink.luopeike.com/sitemap.xml

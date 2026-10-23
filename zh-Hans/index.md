@@ -58,4 +58,4 @@ iPhone 与 iPad · App Store
 
 [常见问题](https://arklink.luopeike.com/zh-Hans/faq)
 
-Updated: 2026-10-23
+Updated: 2026-10-24

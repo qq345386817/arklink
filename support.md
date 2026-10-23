@@ -14,4 +14,4 @@ Read the help and FAQ before contacting support. The Gameplay page explains the 
 
 Canonical: https://arklink.luopeike.com/support
 
-Updated: 2026-10-23
+Updated: 2026-10-24

@@ -34,4 +34,4 @@ App 在支持范围内跟随系统语言，目前提供英文和简体中文剧�
 
 Canonical: https://arklink.luopeike.com/zh-Hans/help
 
-Updated: 2026-10-23
+Updated: 2026-10-24

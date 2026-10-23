@@ -58,4 +58,4 @@ Local device saves
 
 [FAQ](https://arklink.luopeike.com/faq)
 
-Updated: 2026-10-23
+Updated: 2026-10-24
