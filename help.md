@@ -14,13 +14,13 @@ While dialogue is appearing, use the show-full-message control when available. L
 
 ## Replay a chapter
 
-Use Restart Chapter to try a different route. In the upcoming T-402 update, restarting the first chapter restores its action budget and permits.
+Use Restart Chapter to try a different route. Restarting the first chapter restores its action budget and permits.
 
 ## Language
 
 The app follows the device language where supported. Available story languages are English and Simplified Chinese.
 
-## Sound settings in the upcoming update
+## Sound settings
 
 Use the menu or in-game sound switch. Sound defaults to off; the preference is stored independently of story progress.
 
@@ -28,10 +28,10 @@ Use the menu or in-game sound switch. Sound defaults to off; the preference is s
 
 Clear Progress deletes local story progress. Restart Chapter replays a chapter. These are different actions; read the confirmation before clearing.
 
-## Upcoming operating window
+## T-402 operating window
 
-The action-budget and override-permit mechanics are previewed on the Gameplay page. Existing chapter-one saves keep their old mode until replayed.
+The Gameplay page explains the action budget and override permits available in version 1.1.0. Older chapter-one saves keep their original story mode until you replay the chapter.
 
 Canonical: https://arklink.luopeike.com/help
 
-Updated: 2026-10-11
+Updated: 2026-10-23

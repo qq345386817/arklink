@@ -12,7 +12,7 @@ Pages:
 - `help.html`
 - `support.html`
 - `privacy-policy.html`
-- `gameplay.html` (upcoming-feature preview)
+- `gameplay.html` (T-402 gameplay guide)
 - `faq.html`
 - `zh-Hans/index.html`
 - `zh-Hans/help.html`
@@ -36,8 +36,10 @@ indexable. The file is a content guide for supporting agents, not a Google ranki
 signal. Do not add invented ratings or unreleased features as
 current features to structured data or summaries.
 
-The T-402 gameplay upgrade is explicitly marked as in development. Change this
-status only after the matching app build is publicly available. The app is a free
+The T-402 operating window, override permits, evidence cross-checks, profile abilities
+and optional terminal sound effects are available in App Store version 1.1.0.
+Older chapter-one saves retain their original story mode until the chapter is replayed.
+Keep release-status statements aligned with the publicly available app. The app is a free
 download; keep both language CTAs and product summaries consistent. `updated` is the actual
 content-modification date, not the regeneration date.
 

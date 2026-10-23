@@ -4,21 +4,21 @@
 
 ArkLink is available as a free download on the App Store for iPhone and iPad. English and Simplified Chinese are supported. No game account is required. Saves are local; cloud sync is not promised.
 
-Release status: the T-402 operating window, override permits, persistent profile abilities, evidence cross-checks and terminal sound effects described on the Gameplay page are upcoming features in development, not a claim about the current App Store build. This is a fictional game, not an insurance service or professional advice.
+Release status: version 1.1.0 includes the T-402 operating window, override permits, persistent profile abilities, evidence cross-checks and optional terminal sound effects described on the Gameplay page. A new first-chapter run enables the operating window; older chapter-one saves keep their original story mode until replayed. This is a fictional game, not an insurance service or professional advice.
 
 ## English
 
 - [Product overview](https://arklink.luopeike.com/index.md): game identity, platform, languages and release status.
-- [Gameplay and upcoming T-402 update](https://arklink.luopeike.com/gameplay.md): a 90-second action budget, two override permits, evidence comparison, profile abilities and optional audio; reading is free.
+- [Gameplay and T-402 decisions](https://arklink.luopeike.com/gameplay.md): a 90-second action budget, two override permits, evidence comparison, profile abilities and optional audio; reading is free.
 - [FAQ](https://arklink.luopeike.com/faq.md): offline play, saves and feature availability.
-- [Help](https://arklink.luopeike.com/help.md): start, continue, replay and upcoming controls.
+- [Help](https://arklink.luopeike.com/help.md): start, continue, replay, operating-window and sound controls.
 
 ## 简体中文
 
 - [游戏概览](https://arklink.luopeike.com/zh-Hans/index.md): 游戏类型、平台、语言与发布状态。
-- [玩法与新版本预告](https://arklink.luopeike.com/zh-Hans/gameplay.md): 行动预算、越权授权、证据核验与画像能力。
+- [玩法与 T-402 决策](https://arklink.luopeike.com/zh-Hans/gameplay.md): 行动预算、越权授权、证据核验与画像能力，已在 1.1.0 版本上线。
 - [常见问题](https://arklink.luopeike.com/zh-Hans/faq.md): 离线、存档与功能是否上线。
-- [操作帮助](https://arklink.luopeike.com/zh-Hans/help.md): 开始、继续与重玩。
+- [操作帮助](https://arklink.luopeike.com/zh-Hans/help.md): 开始、继续、重玩、行动窗口与音效开关。
 
 ## Optional
 
@@ -26,4 +26,4 @@ Release status: the T-402 operating window, override permits, persistent profile
 - [Support](https://arklink.luopeike.com/support.md): developer contact.
 - [Privacy policy](https://arklink.luopeike.com/privacy-policy.md): local data and optional notifications.
 
-Updated: 2026-10-11
+Updated: 2026-10-23

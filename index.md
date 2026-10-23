@@ -14,9 +14,9 @@ Explore different decisions and return to recorded routes and discovered evidenc
 
 The story and saves are stored on your device. Installation and updates need a connection; playing the installed story does not require an account.
 
-## NEXT UPDATE · IN DEVELOPMENT
+## AVAILABLE NOW · VERSION 1.1.0
 
-The next gameplay update adds an action budget, limited override permits, evidence cross-checks, persistent profile abilities and terminal sound effects. These features are in development and may not be included in the current App Store version.
+Version 1.1.0 includes an action budget, limited override permits, evidence cross-checks, persistent profile abilities and optional terminal sound effects. Start a new first-chapter run to use the T-402 operating window; older saves keep their original story mode until you replay the chapter.
 
 ## 90 seconds of action time
 
@@ -58,4 +58,4 @@ Local device saves
 
 [FAQ](https://arklink.luopeike.com/faq)
 
-Updated: 2026-10-11
+Updated: 2026-10-23

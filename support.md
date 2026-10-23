@@ -10,8 +10,8 @@ Include your device model, system version, installed ArkLink version, affected c
 
 ## Gameplay help
 
-Read the help and FAQ before contacting support. The Gameplay page clearly labels upcoming features so you can compare them with your installed version.
+Read the help and FAQ before contacting support. The Gameplay page explains the T-402 mechanics available in version 1.1.0, including how older saves work.
 
 Canonical: https://arklink.luopeike.com/support
 
-Updated: 2026-10-11
+Updated: 2026-10-23

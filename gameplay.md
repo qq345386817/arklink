@@ -1,14 +1,14 @@
 # How decisions work in ArkLink
 
-NEXT UPDATE · IN DEVELOPMENT
+AVAILABLE NOW · VERSION 1.1.0
 
-ArkLink is a story-led visual novel, not a real-world insurance service. You read the case, choose an action and follow the consequences. The current game supports branching story play and local progress. The mechanics below describe the upcoming T-402 upgrade.
+ArkLink is a story-led visual novel, not a real-world insurance service. You read the case, choose an action and follow the consequences. The T-402 mechanics below are available in version 1.1.0, alongside branching story play and local progress.
 
-The next gameplay update adds an action budget, limited override permits, evidence cross-checks, persistent profile abilities and terminal sound effects. These features are in development and may not be included in the current App Store version.
+Version 1.1.0 includes an action budget, limited override permits, evidence cross-checks, persistent profile abilities and optional terminal sound effects. Start a new first-chapter run to use the T-402 operating window; older saves keep their original story mode until you replay the chapter.
 
 ## The decision budget is not a reading timer
 
-A new first-chapter run in the upcoming update starts with 90 seconds of action time. Reading dialogue, checking the log and resuming a save do not spend it. Operations show their cost before you choose.
+A new first-chapter run starts with 90 seconds of action time. Reading dialogue, checking the log and resuming a save do not spend it. Operations show their cost before you choose.
 
 ## Override permits create a trade-off
 
@@ -32,8 +32,8 @@ Terminal sound effects default to off. An independent switch enables selection, 
 
 ## Save and replay
 
-The upcoming update preserves action costs and the pending destination if play is interrupted. Older chapter-one saves keep their original story mode; replaying enables the new operating window.
+The game preserves action costs and the pending destination if play is interrupted. Older chapter-one saves keep their original story mode; replaying enables the operating window.
 
 Canonical: https://arklink.luopeike.com/gameplay
 
-Updated: 2026-10-11
+Updated: 2026-10-23

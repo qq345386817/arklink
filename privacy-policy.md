@@ -10,7 +10,7 @@ The app does not ask for your name, contacts, photos, precise location or accoun
 
 ## Local data
 
-Story progress, route records and settings may be stored locally on your device. The upcoming sound setting and action budget are also saved locally.
+Story progress, route records and settings may be stored locally on your device. Sound preferences and the T-402 action budget are also saved locally.
 
 ## Notifications
 
@@ -22,7 +22,7 @@ ArkLink does not use third-party advertising trackers or track you across apps a
 
 ## Microphone
 
-The upcoming terminal sound effects are playback only and do not require microphone access.
+Terminal sound effects are playback only. ArkLink does not record audio or request microphone access.
 
 ## Contact
 
@@ -30,4 +30,4 @@ The upcoming terminal sound effects are playback only and do not require microph
 
 Canonical: https://arklink.luopeike.com/privacy-policy
 
-Updated: 2026-10-11
+Updated: 2026-10-23
