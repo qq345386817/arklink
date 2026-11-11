@@ -57,8 +57,8 @@ content-modification date, not the regeneration date.
 
 The November 11 copy update follows `../fastlane/ASO_OPTIMIZATION.md` and the local
 App Store descriptions, with feature checks against `../engine/caseOperations.ts`,
-`../store/gameStore.ts` and `../App.tsx`. The parent metadata remains local; updating
-this website does not upload App Store metadata. Lead with branching visual novel,
+`../store/gameStore.ts` and `../App.tsx`. The parent repository owns the App Store
+metadata; regenerating or deploying this website does not upload it. Lead with branching visual novel,
 choices and climate mystery; distinguish the 90-second **action budget** from
 reading time, total playtime and a live countdown. Include side-story archives,
 different endings, route records, replay and local saves without inventing counts.
