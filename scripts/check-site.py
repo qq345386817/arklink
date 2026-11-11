@@ -2,6 +2,8 @@
 """Validate the static site's navigation, SEO contracts and design tokens."""
 import json
 import re
+from datetime import date
+from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlparse
@@ -34,7 +36,12 @@ urls = (ROOT / "sitemap.txt").read_text().splitlines()
 assert len(urls) == len(set(urls)) == 12, "Expected 12 unique canonical URLs"
 xml = ET.parse(ROOT / "sitemap.xml")
 assert [n.text for n in xml.findall(".//{*}loc")] == urls, "Sitemap formats disagree"
-stale = re.compile(r"研发中|开发中|新版本预告|\bupcoming\b|\bin development\b", re.I)
+modified = {n.find("{*}loc").text: n.find("{*}lastmod").text for n in xml.getroot()}
+assert all(date.fromisoformat(value) for value in modified.values()), "Invalid sitemap dates"
+stale = re.compile(r"研发中|开发中|新版本预告|\bupcoming\b|\bin development\b|\b1\.1\.0\b", re.I)
+app_id = DOMAIN + "/#app"
+store = "https://apps.apple.com/app/id6773223162"
+app_versions = set()
 
 for url in urls:
     file = target_for(urlparse(url).path)
@@ -46,6 +53,22 @@ for url in urls:
     assert not any("noindex" in a.get("content", "") for a in page.select("meta", name="robots")), f"Noindex canonical: {file}"
     alternates = {a.get("hreflang") for a in page.select("link", rel="alternate")}
     assert {"en", "zh-Hans", "x-default"} <= alternates, f"Missing language alternatives: {file}"
+    route = urlparse(url).path
+    english_route = route.removeprefix("/zh-Hans") or "/"
+    expected_alternates = {"en": DOMAIN + english_route, "zh-Hans": DOMAIN + "/zh-Hans" + english_route,
+                           "x-default": DOMAIN + english_route}
+    actual_alternates = {a["hreflang"]: a["href"] for a in page.select("link", rel="alternate") if "hreflang" in a}
+    assert actual_alternates == expected_alternates, f"Incorrect hreflang targets: {file}"
+    title = unescape(re.search(r"<title>(.*?)</title>", text).group(1))
+    assert 15 <= len(title) <= 80, f"Invalid page title: {file}"
+    description = page.select("meta", name="description")
+    assert len(description) == 1 and 40 <= len(description[0]["content"]) <= 170, f"Invalid description: {file}"
+    for attribute, key in (("property", "og:description"), ("name", "twitter:description")):
+        assert page.select("meta", **{attribute: key})[0]["content"] == description[0]["content"], f"Social description drift: {file}"
+    assert page.select("meta", property="og:title")[0]["content"] == title
+    assert page.select("meta", name="twitter:title")[0]["content"] == title
+    assert page.select("meta", property="og:url")[0]["content"] == url, f"Social URL drift: {file}"
+    assert page.select("meta", property="og:locale:alternate"), f"Missing social alternate locale: {file}"
     assert not stale.search(text), f"Stale development status: {file}"
     ids = [a["id"] for _, a in page.tags if "id" in a]
     assert len(ids) == len(set(ids)), f"Duplicate IDs: {file}"
@@ -69,9 +92,38 @@ for url in urls:
     schema = re.findall(r'<script type="application/ld\+json">(.*?)</script>', text, re.S)
     assert schema, f"Missing JSON-LD: {file}"
     for value in schema:
-        assert "@graph" in json.loads(value)
-    assert not stale.search(file.with_suffix(".md").read_text()), f"Stale Markdown: {file}"
+        graph = json.loads(value)["@graph"]
+        assert not any("aggregateRating" in item or "review" in item for item in graph), f"Unsupported review markup: {file}"
+        app = next(item for item in graph if item["@id"] == app_id)
+        web_page = next(item for item in graph if item["@type"] == "WebPage")
+        assert app["name"] == "ArkLink: Global Extremes" and app["alternateName"] == "ArkLink: 全球极端灾变"
+        assert app["downloadUrl"] == app["installUrl"] == store
+        assert app["operatingSystem"] == "iOS, iPadOS" and app["inLanguage"] == ["en", "zh-Hans"]
+        assert app["isAccessibleForFree"] is True and len(app["featureList"]) == 3
+        app_versions.add(app["softwareVersion"])
+        assert web_page["url"] == url and web_page["dateModified"] == modified[url], f"Page/sitemap drift: {file}"
+        assert web_page["description"] == description[0]["content"] and web_page["about"] == {"@id": app_id}
+        if file.name == "index.html":
+            assert web_page["mainEntity"] == {"@id": app_id}
+            assert all(f"<h3>{feature}</h3>" in text for feature in app["featureList"]), f"Invisible feature markup: {file}"
+            assert f"<dd>{app['softwareVersion']}</dd>" in text, f"Invisible release version: {file}"
+            assert page.select("meta", name="apple-itunes-app") == [{"name": "apple-itunes-app", "content": "app-id=6773223162"}]
+    markdown = file.with_suffix(".md").read_text()
+    assert not stale.search(markdown), f"Stale Markdown: {file}"
+    assert f"Canonical: {url}" in markdown, f"Missing Markdown canonical: {file}"
+    if file.name == "faq.html":
+        for answer in re.findall(r'<div><p>(.*?)</p></div>', text):
+            assert answer in markdown, f"FAQ/Markdown content drift: {file}"
     print("PASS", urlparse(url).path)
+
+assert len(app_versions) == 1, "Release version differs between pages"
+guide = (ROOT / "llms.txt").read_text()
+assert not stale.search(guide), "Stale agent guide"
+assert next(iter(app_versions)) in guide and "90-second action budget" in guide
+assert "not a real-time reading countdown" in guide and "Cloud sync and cross-device transfer are not promised" in guide
+for link in re.findall(r"\]\((https://[^)]+)\)", guide):
+    if link.startswith(DOMAIN + "/"):
+        assert target_for(urlparse(link).path), f"Broken agent guide link: {link}"
 
 not_found = Page((ROOT / "404.html").read_text())
 assert any("noindex" in a.get("content", "") for a in not_found.select("meta", name="robots")), "404 must be noindex"
