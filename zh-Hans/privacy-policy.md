@@ -1,5 +1,7 @@
 # 隐私政策
 
+政策更新：2026 年 10 月 23 日
+
 ## 概览
 
 ArkLink 是独立视觉小说游戏，剧情游玩无需游戏账号。
@@ -30,4 +32,4 @@ ArkLink 不使用第三方广告追踪器，不会跨 App 或网站追踪你。
 
 Canonical: https://arklink.luopeike.com/zh-Hans/privacy-policy
 
-Updated: 2026-10-24
+Updated: 2026-11-11

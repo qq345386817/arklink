@@ -1,5 +1,7 @@
 # Privacy policy
 
+Policy updated: October 23, 2026
+
 ## Overview
 
 ArkLink is a standalone visual novel. It does not require a game account to play.
@@ -30,4 +32,4 @@ Terminal sound effects are playback only. ArkLink does not record audio or reque
 
 Canonical: https://arklink.luopeike.com/privacy-policy
 
-Updated: 2026-10-24
+Updated: 2026-11-11

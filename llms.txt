@@ -1,29 +1,37 @@
 # ArkLink: Global Extremes
 
-> A free, offline, story-led climate thriller visual novel about catastrophe claims, evidence, medical access and branching decisions. / 免费离线气候悬疑互动小说，以巨灾理赔、证据与分支选择为核心。
+> A free offline branching visual novel and fictional climate mystery. Investigate altered evidence and choose between a community’s survival and your son’s medical access. / ArkLink: 全球极端灾变，免费无广告的离线分支视觉小说，在证据、河谷生存与儿子的治疗权限之间抉择。
 
-ArkLink is available as a free download on the App Store for iPhone and iPad. English and Simplified Chinese are supported. No game account is required. Saves are local; cloud sync is not promised.
+## Product facts
 
-Release status: version 1.1.0 includes the T-402 operating window, override permits, persistent profile abilities, evidence cross-checks and optional terminal sound effects described on the Gameplay page. A new first-chapter run enables the operating window; older chapter-one saves keep their original story mode until replayed. This is a fictional game, not an insurance service or professional advice.
+- Official App Store app ID: 6773223162. The linked release is for iPhone and iPad, requiring iOS or iPadOS 15.1 or later. No Google Play download is listed here.
+- English and Simplified Chinese are included. Free to play, with no ads or required game account.
+- Play Carter Li, a catastrophe claims actuary, inside a near-future disaster claims terminal. Main chapters, unlockable side-story archives, different endings and recorded routes support chapter replay. No total playtime or fixed ending count is stated.
+- The opening T-402 case starts with a 90-second action budget and two override permits. This is not a real-time reading countdown or the length of the game. Reading, opening logs, saving and resuming do not spend it. Charged choices show costs; manual review can extend the window, and an override can freeze automatic denial. These resource rules do not apply to every chapter.
+- Progress saves locally. Restarting a chapter preserves discovered files and recorded outcomes; clearing progress deletes the local story record. Cloud sync and cross-device transfer are not promised.
+- Public version 1.2.0, checked 2026-11-11, refreshes reading, history and chapter navigation. It includes T-402 mechanics, profile abilities and optional terminal sound effects. Older first-chapter saves keep their original story mode until replayed. Release builds hide developer score-change and route previews, not operation costs.
+- The story is fiction, not professional climate, medical, financial or insurance advice.
 
 ## English
 
-- [Product overview](https://arklink.luopeike.com/index.md): game identity, platform, languages and release status.
-- [Gameplay and T-402 decisions](https://arklink.luopeike.com/gameplay.md): a 90-second action budget, two override permits, evidence comparison, profile abilities and optional audio; reading is free.
-- [FAQ](https://arklink.luopeike.com/faq.md): offline play, saves and feature availability.
-- [Help](https://arklink.luopeike.com/help.md): start, continue, replay, operating-window and sound controls.
+- [Product overview](https://arklink.luopeike.com/index.md): identity, story, archives, endings, offline play, languages and current version.
+- [Gameplay and T-402 decisions](https://arklink.luopeike.com/gameplay.md): branching choices, evidence, action costs, permits, reading and replay.
+- [FAQ](https://arklink.luopeike.com/faq.md): free play, ads, reading budget, saves, routes and availability.
+- [Help](https://arklink.luopeike.com/help.md): reader controls, history, archives, local saves, chapter replay and sound.
 
 ## 简体中文
 
-- [游戏概览](https://arklink.luopeike.com/zh-Hans/index.md): 游戏类型、平台、语言与发布状态。
-- [玩法与 T-402 决策](https://arklink.luopeike.com/zh-Hans/gameplay.md): 行动预算、越权授权、证据核验与画像能力，已在 1.1.0 版本上线。
-- [常见问题](https://arklink.luopeike.com/zh-Hans/faq.md): 离线、存档与功能是否上线。
-- [操作帮助](https://arklink.luopeike.com/zh-Hans/help.md): 开始、继续、重玩、行动窗口与音效开关。
+- [游戏概览](https://arklink.luopeike.com/zh-Hans/index.md): 视觉小说定位、故事、支线档案、不同结局、双语与当前版本。
+- [玩法与 T-402 决策](https://arklink.luopeike.com/zh-Hans/gameplay.md): 行动预算与越权授权、分支选择、证据核验、阅读和重玩。阅读不扣时间。
+- [常见问题](https://arklink.luopeike.com/zh-Hans/faq.md): 免费无广告、离线、本地存档、路线与平台支持。
+- [操作帮助](https://arklink.luopeike.com/zh-Hans/help.md): 阅读控件、历史记录、档案、继续游戏与章节重开。
 
 ## Optional
 
-- [Official download](https://apps.apple.com/app/id6773223162): free download for iPhone and iPad.
+- [Official download](https://apps.apple.com/app/id6773223162): authoritative App Store listing for availability and compatibility.
 - [Support](https://arklink.luopeike.com/support.md): developer contact.
 - [Privacy policy](https://arklink.luopeike.com/privacy-policy.md): local data and optional notifications.
+- [中文支持](https://arklink.luopeike.com/zh-Hans/support.md): 联系开发者。
+- [中文隐私政策](https://arklink.luopeike.com/zh-Hans/privacy-policy.md): 本地数据与可选通知。
 
-Updated: 2026-10-24
+Updated: 2026-11-11

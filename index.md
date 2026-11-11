@@ -1,34 +1,36 @@
 # ArkLink: Global Extremes
 
-Play Carter Li, a catastrophe claims actuary and a father. Decide which evidence survives, whose treatment stays authorised, and who pays for a changing climate.
+A free offline visual novel for iPhone and iPad. Investigate altered evidence, protect your family and explore branching choices in a fictional climate mystery.
 
-## Disaster claims decisions
+Play Carter Li, a catastrophe claims actuary caught between a drought-stricken valley, altered evidence and his son’s medical access. Review the claim, question the data and decide what goes on the record.
 
-Review a near-future climate crisis through claims, medical access and corporate power. You sign the ledger; other people live with the result.
+## Investigate a climate mystery
 
-## Branching route records
+Read a near-future thriller through a disaster claims terminal. Compare evidence, challenge a denial or protect your family. Decisions echo in later scenes and route records.
 
-Explore different decisions and return to recorded routes and discovered evidence. Replaying reveals another side of the same case.
+## Archives, endings and another route
 
-## Offline, without an account
+Follow main chapters, unlock side-story archives and discover different endings. Review your choices, then replay a chapter to see another side of the case.
 
-The story and saves are stored on your device. Installation and updates need a connection; playing the installed story does not require an account.
+## Free, offline and without ads
 
-## AVAILABLE NOW · VERSION 1.1.0
+Play the bundled story without ads or a game account, in English or Simplified Chinese. Progress saves locally so you can leave and return later. Downloads and updates need a connection.
 
-Version 1.1.0 includes an action budget, limited override permits, evidence cross-checks, persistent profile abilities and optional terminal sound effects. Start a new first-chapter run to use the T-402 operating window; older saves keep their original story mode until you replay the chapter.
+## AVAILABLE NOW · VERSION 1.2.0
 
-## 90 seconds of action time
+The opening case starts with a 90-second action budget and two override permits, not a real-time reading countdown. Reading, opening logs, saving and resuming do not spend it. Version 1.2.0 also refreshes the reader, history and chapter navigation. Older first-chapter saves keep their original story mode until you replay the chapter.
 
-Reading takes no time. Deliberate operations spend a visible budget; a late standard sign-off stays available.
+## Read freely, spend deliberately
+
+Take your time with the story. Only charged choices spend the displayed resources; the 90 seconds are neither a playtime estimate nor a countdown while you read.
 
 ## Two override permits
 
-Spend a limited permit to copy sensitive evidence, extend a review window or freeze default denial.
+Copy sensitive evidence, request a manual review to extend the window, or use an override to freeze automatic denial. You cannot protect everything with the same permit.
 
-## Profile abilities and feedback
+## Consequences, not advance answers
 
-Human-first, system-correction and evidence-leverage profiles reinforce different decisions. See the consequence after each choice.
+Your profile influences the effects of decisions. Resource costs are visible, but release builds do not preview every choice’s score changes or route outcome. Discover the consequences through play.
 
 ## Game
 
@@ -36,26 +38,40 @@ ArkLink: Global Extremes
 
 ## Genre
 
-Interactive fiction / climate thriller visual novel
+Branching visual novel / climate mystery / interactive fiction
 
 ## Platform
 
-iPhone and iPad · App Store
+iPhone and iPad · iOS / iPadOS 15.1 or later
 
 ## Languages
 
 English and Simplified Chinese
 
-## Account
+## Price and ads
 
-Not required for story play
+Free to play · No ads
 
 ## Progress
 
-Local device saves
+Offline story · Local saves · No game account
+
+## Story
+
+Main chapters, unlockable side-story archives and different endings
+
+## Replay
+
+Chapter replay and recorded routes
+
+## Current version
+
+1.2.0
 
 [Download Free on the App Store](https://apps.apple.com/app/id6773223162)
 
 [FAQ](https://arklink.luopeike.com/faq)
 
-Updated: 2026-10-24
+Canonical: https://arklink.luopeike.com/
+
+Updated: 2026-11-11

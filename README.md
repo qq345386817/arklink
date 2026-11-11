@@ -46,12 +46,32 @@ indexable. The file is a content guide for supporting agents, not a Google ranki
 signal. Do not add invented ratings or unreleased features as
 current features to structured data or summaries.
 
-The T-402 operating window, override permits, evidence cross-checks, profile abilities
-and optional terminal sound effects are available in App Store version 1.1.0.
+The public US App Store listing was checked on November 11, 2026: version 1.2.0,
+free, with iOS / iPadOS 15.1 as the minimum system version. Version 1.2.0 refreshes
+the reader, history and chapter navigation. T-402 operating resources, evidence
+cross-checks, profile abilities and optional terminal sounds are also included.
 Older chapter-one saves retain their original story mode until the chapter is replayed.
 Keep release-status statements aligned with the publicly available app. The app is a free
 download; keep both language CTAs and product summaries consistent. `updated` is the actual
 content-modification date, not the regeneration date.
+
+The November 11 copy update follows `../fastlane/ASO_OPTIMIZATION.md` and the local
+App Store descriptions, with feature checks against `../engine/caseOperations.ts`,
+`../store/gameStore.ts` and `../App.tsx`. The parent metadata remains local; updating
+this website does not upload App Store metadata. Lead with branching visual novel,
+choices and climate mystery; distinguish the 90-second **action budget** from
+reading time, total playtime and a live countdown. Include side-story archives,
+different endings, route records, replay and local saves without inventing counts.
+Release choices show resource costs but hide developer score and route previews.
+
+JSON-LD, visible product facts and Markdown companions derive from the same copy.
+Keep the curated `releaseVersion` current only after checking the public listing.
+No review ratings, aggregate scores, FAQ rich-result promises or SEO growth claims
+are fabricated. Google requires no special AI schema or AI text files for AI search
+eligibility: https://developers.google.com/search/docs/appearance/ai-features.
+`llms.txt` is a convenience index, not a guarantee of citation or indexing.
+Existing App Store screenshots remain labelled as listing images rather than
+newly captured 1.2.0 interface screenshots; see `images/README.md`.
 
 Public support links use Cloudflare's `email_off` markers so email obfuscation does
 not introduce `/cdn-cgi/l/email-protection` links for search engines. `/cdn-cgi/` is

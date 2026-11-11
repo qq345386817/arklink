@@ -10,11 +10,15 @@ Use the continue action or chapter menu. Story progress and route records are sa
 
 ## Read at your own pace
 
-While dialogue is appearing, use the show-full-message control when available. Long messages and option lists can be scrolled.
+Use the show-full-message control while dialogue appears. Scroll long messages or use the reader’s previous and next controls. Open the history to review earlier text. These reading actions do not spend the T-402 budget.
 
 ## Replay a chapter
 
-Use Restart Chapter to try a different route. Restarting the first chapter restores its action budget and permits.
+Use Restart Chapter and confirm to try another route. Discovered files and recorded outcomes are retained; restarting the first chapter restores its action budget and permits. Cancel the confirmation to keep your current place.
+
+## Explore archives and route records
+
+Open the archive from the home screen to browse discovered files and unlocked side stories. Completed outcomes and route records let you revisit the consequences of earlier decisions. Locked content is discovered through story progress.
 
 ## Language
 
@@ -30,8 +34,8 @@ Clear Progress deletes local story progress. Restart Chapter replays a chapter. 
 
 ## T-402 operating window
 
-The Gameplay page explains the action budget and override permits available in version 1.1.0. Older chapter-one saves keep their original story mode until you replay the chapter.
+The Gameplay page explains the 90-second action budget and two override permits. Reading, opening logs, saving and resuming do not consume them. Older chapter-one saves keep their original story mode until you replay the chapter.
 
 Canonical: https://arklink.luopeike.com/help
 
-Updated: 2026-10-24
+Updated: 2026-11-11
